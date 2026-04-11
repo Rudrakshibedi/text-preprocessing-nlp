@@ -2,10 +2,12 @@
 Text Preprocessing in NLP
 
 About This Project
+
 This project is a basic implementation of text preprocessing in Natural Language Processing (NLP). The idea is to take raw text and clean it so that it becomes easier to analyze or use in further applications like machine learning.
 Instead of working with messy text, we process it step by step to make it structured and meaningful.
 
 What This Project Does
+
 The program performs the following operations on a given text:
 	•	Converts all text to lowercase
 	•	Removes punctuation marks
@@ -13,15 +15,19 @@ The program performs the following operations on a given text:
 	•	Removes common words (stopwords) like is, the, and
 
 How It Works
+
 The input text is taken from a file, processed using Python and NLTK, and the final cleaned output is stored in another file.
 
 Example
+
 Input
+
 Hello! This is a simple example, showing how text preprocessing works.
 Output
 ['hello', 'simple', 'example', 'showing', 'text', 'preprocessing', 'works']
 
 Functions Used in Preprocessing
+
 Below is a step-by-step transformation of a single sentence to demonstrate each preprocessing stage.
 Input Sentence
 Hello! This is an example, showing how preprocessing works.
@@ -65,6 +71,7 @@ How to Run
 	3	Check the output in output.txt
 
 What I Learned
+
 Through this project, I understood:
 	•	How raw text is cleaned before processing
 	•	The importance of tokenization
